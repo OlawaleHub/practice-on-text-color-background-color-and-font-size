@@ -1,0 +1,143 @@
+<!-- Basic html structure -->
+<!DOCTYPE html
+<html>
+				<head>
+								<title>Practice workspace</title>
+				</head>
+				<body>
+								<h6 id="top">Top of the page</h6>
+								<h1>The unseen mystery</h1>
+								<p>The world we live in belongs to the brave and the daring. The one who can challenge life and bring the best out of them.</p>
+				</body>
+</html>
+<br>
+<!-- Types of heading -->
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<br>
+<!-- How to input image -->
+<img src="guru.jpeg">
+<br>
+<br>
+
+<!-- How to create link in html -->
+<a href="https://www.udemy.com/">Visit udemy page for more info</a>
+<br>
+<br>
+<br>
+<br>
+<a href="firstcode.html">visit my main workspace</a>
+<br>
+<br>
+				<!-- Moving to the top of the page -->
+				<p>Some text here</p>
+				<a href="#top">Back to the top</a>
+				<br>
+				<br>
+				<br>
+				<!-- Using pic as a link -->
+				<a href="https="//www.udemy.com/"">
+								<img src="boss.jpeg">
+				</a>
+				<br>
+				<br>
+				<!-- sup and sub element -->
+				<p>I'm the <sup>1st</sup>John in america.Any other John is at the<sub>bottom</sub></p>
+<br>
+<!-- Strong and Emphasis -->
+<p>According to Robinson and Acemoglu in their book titled:<strong>Why Nations fail. </strong>Nations fail as a result of <em>weak institution.</em></p>
+<br>
+<br>
+<!-- Special character -->
+<h1>&copy; Quadri Soliu</h1>
+<br>
+<br>
+<br>
+				<!-- Unordered list element -->
+				<ul>
+								<li>Quadri</li>
+								<li>Soliu</li>
+								<li>Olawale</li>
+				</ul>
+				<!-- Ordered list element -->
+				<ol>
+								<li>Quadri</li>
+								<li>Soliu</li>
+								<li>Olawale</li>
+				</ol>
+				<!-- Unordered with Ordered -->
+				<ol>
+								<li>Quadri</li>
+								<li>Soliu
+<ul>
+				<li>Nafeesah</li>
+				<li>Aisha</li>
+</ul>
+</li>
+<li>Olawale</li>
+				</ol>
+				<br>
+				<!-- Table element -->
+				<table>
+								<tr>
+												<th>Boys</th>
+												<th>Girls</th>
+												<th>Both</th>
+												</tr>
+												<tr>
+																<td>Ahmad</td>
+																<td>Aisha</td>
+																<td>Hamzat</td>
+												</tr>
+												<tr>
+																<td>Aliyyu</td>
+																<td>Fatimoh</td>
+																<td>Muawiyyat</td>
+												</tr>
+				</table>
+<br>
+<!-- Radio element -->
+<p>Please select your best subject</p>
+				<input type="radio" name="coding" value="english"> English
+				<input type="radio" name="coding" value="mathematics"> Mathematics
+				<input type="radio" name="coding" value="physics"> Physics
+				<input type="radio" name="codg" value="physics"> Chemistry
+<br>
+<!-- Checkbox -->
+<p>Please select your favorite language/languages</p>
+				<input type="checkbox" value="yoruba" name="programming"> Yoruba
+				<input type="checkbox" name="programming" value="english"> English
+				<input type="checkbox" name="programming" value="french"> French
+<br>
+<!-- Select option -->
+<p>Please select your favorite color</p>
+<select name="colors">
+				<option value="red">Red</option>
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+				<option value="black">Black</option>
+				<option value="yellow">Yellow</option>
+				<option value="none">None</option>
+				</select>
+				<br>
+				<!-- Form action -->
+				<br>
+				
+				<label for="name">First name</label>
+				<input type="number" text="">
+				<br>
+				<input type="submit">
+				<br>
+				<br>
+				<label for="email">Email</label>
+			 <input type="text">
+			 <br>
+			 <br>
+			 <label for="password">Password</label>
+				<input type="text">
+				<br>
+				<input type="submit">
